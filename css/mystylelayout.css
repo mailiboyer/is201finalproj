@@ -1,0 +1,56 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.common {
+    border: black;
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 150px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+    color: black;
+}
+
+.leftmenu {
+    top: 155px;
+    left: 5px;
+    width: 624px;
+    bottom: 100px;
+    height: 334px;
+    z-index: 1;
+    border-right: solid 1px #555555;
+}
+
+.rightmenu {
+    top: 155px;
+    right: 5px;
+    width: 623px;
+    bottom: 100px;
+    height: 334px;
+    border-left: solid 1px #555555;
+    padding-left: 5px;
+}
+
+.footer {
+    font-weight: bold;
+    bottom: 5px;
+    left: 10px;
+    right: 10px;
+    height: 100px;
+    font-size: 10px;
+    color: #999999;
+    padding-top: 15px;
+    text-align: center;
+    border-top: solid 1px #555555;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+
+}
